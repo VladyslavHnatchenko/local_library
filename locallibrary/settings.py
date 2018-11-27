@@ -25,7 +25,7 @@ SECRET_KEY = 'lwxjk_d4+gm7)6%*zdog5+t^2ja)b)b@-=%jvp0(*06_evwq4f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'hnatchenkovladyslav.pythonanywhere.com']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'catalog.apps.CatalogConfig',
 ]
 
 MIDDLEWARE = [
@@ -105,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Kiev'
 
 USE_I18N = True
 
